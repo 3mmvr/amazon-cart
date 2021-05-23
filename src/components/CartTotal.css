@@ -1,0 +1,35 @@
+  
+.CartTotal {
+    background-color: white;
+    flex: 0.3;
+    padding: 20px;
+    text-align: left;
+    min-width: 275px;
+}
+
+.CartTotal button {
+    background-color: #f0c14b;
+    width: 100%;
+    border: 2px solid #a88734;
+    border-radius: 4px;
+    padding: 4px 8px;
+    cursor: pointer;
+    outline: none;
+}
+
+.CartTotal button:hover {
+    background-color: #ddb347;
+}
+
+.CartTotal-price {
+    margin-left: 8px;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .CartTotal {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+}
